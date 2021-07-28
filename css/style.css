@@ -37,11 +37,8 @@ h1 {
 }
 #login-form {
   width: 100%;
-  /* display: flex;
-  justify-content: center; */
   position: absolute;
   top: 45%;
-  /* left: 35%; */
 }
 #login-form input {
   border: none;
@@ -93,16 +90,17 @@ h1 {
 .ul__container {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   position: absolute;
   top: 59%;
 }
 #todo-list {
-  width: 59%;
+  width: 400px;
   display: flex;
   flex-direction: column;
   color: white;
   font-weight: 500;
+  padding-left: 196px;
 }
 #todo-list li {
   margin: 5px 0;
@@ -112,4 +110,40 @@ h1 {
   background: none;
   border: none;
   cursor: pointer;
+}
+#quote {
+  width: 100%;
+  position: absolute;
+  bottom: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#quote span {
+  display: block;
+  color: white;
+  opacity: 0.8;
+  font-size: 14px;
+}
+#quote span:last-child {
+  margin-top: 5px;
+  font-size: 10px;
+}
+#weather {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  color: white;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#weather span {
+  display: block;
+}
+#weather span:last-child {
+  margin-top: 3px;
+  margin-right: 5px;
+  letter-spacing: 0.5px;
 }
