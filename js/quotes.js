@@ -25,7 +25,7 @@ const quotes = [
   },
   {
     quote:
-      "Success is not givin for free. You have to be able to do anything for your goal",
+      "Success is not givin for free. You have to be able to do anything for your goal.",
     author: "Coco",
   },
   {
