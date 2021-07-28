@@ -114,7 +114,7 @@ h1 {
 #quote {
   width: 100%;
   position: absolute;
-  bottom: 3%;
+  bottom: 18px;
   display: flex;
   flex-direction: column;
   align-items: center;
